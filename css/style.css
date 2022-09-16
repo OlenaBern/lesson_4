@@ -1,0 +1,90 @@
+/* ------------Підключення шрифтів----------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+/* --------------------------------------------------- */
+body{
+	font-family: "Lato";
+}
+h1{
+	font-weight: 900;
+}
+.introduction p{
+	font-family: "Roboto";
+	color: purple;
+}
+.introduction span{
+	color: blueviolet;
+}
+h2{
+	font-family: "Roboto";
+	font-weight: 700;
+	color: red;
+}
+.book-one span{
+	color: royalblue;
+	font-weight: 900;
+}
+.book-one,
+.book-three,
+.book-five,
+.book-seven,
+.book-nine p{
+	color: orange;
+}
+.book-two,
+.book-four,
+.book-six,
+.book-eight,
+.book-ten p{
+	color: olivedrab;
+}
+li{
+	color: blue;
+	font-weight: 900;
+}
+.test p{
+	font-family: "Larsseit";
+	font-weight: 700;
+	color: rgb(21, 113, 82);
+}
